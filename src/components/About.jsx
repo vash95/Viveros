@@ -24,9 +24,9 @@ const About = () => (
       </div>
       <div className="grid grid-cols-2 gap-4">
         {stats.map((stat) => (
-          <article key={stat.label} className="card p-6 text-center">
-            <p className="text-3xl font-bold text-primary">{stat.value}</p>
-            <p className="mt-2 font-medium text-slate-600">{stat.label}</p>
+          <article key={stat.label} className="card p-4 text-center sm:p-6">
+            <p className="text-2xl font-bold leading-tight text-primary break-words sm:text-3xl">{stat.value}</p>
+            <p className="mt-2 text-sm font-medium text-slate-600 sm:text-base">{stat.label}</p>
           </article>
         ))}
       </div>
