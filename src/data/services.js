@@ -2,10 +2,10 @@ import exterior from '../../photos/exterior.webp';
 import interior from '../../photos/interior.webp';
 import ara7269 from '../../photos/ARA7269.webp';
 import diseno from '../../photos/diseño.webp';
-import invernadero from '../../photos/invernadero.webp';
-import verdes from '../../photos/verdes.webp';
-import marmolina from '../../photos/marmolina.webp';
-import sombreo from '../../photos/sombreo.webp';
+import centrob from '../../photos/centrob.webp';
+import exterior2 from '../../photos/exterior2.webp';
+import about2 from '../../photos/about-2.webp';
+import macetasIa from '../../photos/macetas-ia.svg';
 
 // Catálogo editable de servicios del vivero para renderizar tarjetas con imágenes locales.
 export const services = [
@@ -28,7 +28,7 @@ export const services = [
     title: 'Planta de temporada',
     description: 'Producción continua en invernadero para cada estación del año.',
     icon: '🌸',
-    image: ara7269,
+    image: about2,
   },
   {
     id: 4,
@@ -42,27 +42,27 @@ export const services = [
     title: 'Productos fitosanitarios',
     description: 'Soluciones para cuidado y protección de plantas en cada etapa.',
     icon: '🧪',
-    image: invernadero,
+    image: ara7269,
   },
   {
     id: 6,
     title: 'Centros de planta viva',
     description: 'Composiciones naturales para decoración de eventos y espacios.',
     icon: '🌿',
-    image: verdes,
+    image: centrob,
   },
   {
     id: 7,
     title: 'Macetas, cestas y jardineras',
     description: 'Complementos prácticos y decorativos para interior y exterior.',
     icon: '🧺',
-    image: marmolina,
+    image: macetasIa,
   },
   {
     id: 8,
     title: 'Planta de huerta',
     description: 'Variedades de huerta para cultivo doméstico y profesional.',
     icon: '🥬',
-    image: sombreo,
+    image: exterior2,
   },
 ];

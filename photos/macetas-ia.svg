@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustración generada por IA de macetas, cestas y jardineras</title>
+  <desc id="desc">Composición decorativa con macetas de distintos tamaños y plantas verdes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#effaf3" />
+      <stop offset="100%" stop-color="#d6f2e1" />
+    </linearGradient>
+    <linearGradient id="potA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9784a" />
+      <stop offset="100%" stop-color="#9f5430" />
+    </linearGradient>
+    <linearGradient id="potB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d6a66a" />
+      <stop offset="100%" stop-color="#b68245" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <ellipse cx="600" cy="670" rx="480" ry="70" fill="#cde6d8" />
+  <g>
+    <rect x="220" y="420" width="220" height="200" rx="22" fill="url(#potA)" />
+    <ellipse cx="330" cy="420" rx="110" ry="22" fill="#7e4529" />
+    <path d="M330 415c-40-20-48-74-8-103 39 20 47 73 8 103Z" fill="#2c8a4a" />
+    <path d="M305 390c-30-17-34-53-4-75 29 17 33 53 4 75Z" fill="#3eaa63" />
+    <path d="M355 390c-30-17-34-53-4-75 29 17 33 53 4 75Z" fill="#46b86e" />
+  </g>
+  <g>
+    <rect x="500" y="380" width="220" height="240" rx="30" fill="url(#potB)" />
+    <ellipse cx="610" cy="380" rx="110" ry="25" fill="#9f6b37" />
+    <path d="M610 375c-65-34-78-121-12-167 64 34 77 120 12 167Z" fill="#2b7f44" />
+    <path d="M565 340c-44-24-52-77-8-109 43 24 51 77 8 109Z" fill="#359756" />
+    <path d="M655 340c-44-24-52-77-8-109 43 24 51 77 8 109Z" fill="#43ad67" />
+  </g>
+  <g>
+    <rect x="790" y="450" width="180" height="170" rx="18" fill="url(#potA)" />
+    <ellipse cx="880" cy="450" rx="90" ry="20" fill="#7e4529" />
+    <path d="M880 445c-36-18-43-64-7-89 35 18 42 63 7 89Z" fill="#2f8c4d" />
+    <circle cx="853" cy="382" r="26" fill="#49b66d" />
+    <circle cx="907" cy="380" r="23" fill="#3ea15f" />
+  </g>
+  <text x="600" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#2f6d47">
+    Macetas, cestas y jardineras
+  </text>
+</svg>
