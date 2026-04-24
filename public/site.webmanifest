@@ -1,0 +1,16 @@
+{
+  "name": "Vivero Rabadán Ayuso",
+  "short_name": "Vivero Rabadán",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f3d2e",
+  "theme_color": "#0f3d2e",
+  "icons": [
+    {
+      "src": "/photos/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
