@@ -8,8 +8,8 @@ import exterior from '../../photos/exterior.webp';
 import diseno from '../../photos/diseño.webp';
 import sombreo from '../../photos/sombreo.webp';
 import verdes from '../../photos/verdes.webp';
-import marmolina from '../../photos/marmolina.webp';
 import ara7269 from '../../photos/ARA7269.webp';
+import chatgptMacetas from '../../photos/chatgpt-macetas-cestas-jardineras.png';
 
 // Galería con imágenes locales del vivero (sin dependencias de URLs externas).
 export const galleryItems = [
@@ -22,7 +22,7 @@ export const galleryItems = [
   { id: 7, category: 'Jardines', title: 'Diseño de jardín ornamental', image: diseno },
   { id: 8, category: 'Plantas', title: 'Planta de huerta en vivero', image: sombreo },
   { id: 9, category: 'Plantas', title: 'Centros de planta viva', image: verdes },
-  { id: 10, category: 'Instalaciones', title: 'Exposición de macetas y jardineras', image: marmolina },
+  { id: 10, category: 'Instalaciones', title: 'Zona de macetas, cestas y jardineras', image: chatgptMacetas },
   { id: 11, category: 'Jardines', title: 'Zona exterior del vivero', image: exterior },
   { id: 12, category: 'Plantas', title: 'Flor de temporada', image: ara7269 },
 ];
