@@ -1,3 +1,5 @@
+import exterior2 from '../../photos/exterior2.webp';
+
 // Resumen visual de instalaciones y capacidad de producción del vivero.
 const items = [
   {
@@ -32,7 +34,7 @@ const Installations = () => (
   <section id="instalaciones" className="mx-auto max-w-7xl px-4 py-20 md:px-6">
     <div className="card grid overflow-hidden md:grid-cols-2">
       <img
-        src="https://images.unsplash.com/photo-1459156212016-c812468e2115?auto=format&fit=crop&w=1200&q=80"
+        src={exterior2}
         alt="Instalaciones del vivero"
         className="h-full min-h-80 w-full object-cover"
         loading="lazy"
