@@ -1,4 +1,4 @@
-# Vivero Rabadán Ayuso - Web corporativa
+# Vivero - Web corporativa
 
 Proyecto web corporativo moderno (React + Vite + Tailwind CSS) para presentar servicios, instalaciones y contacto de **Vivero Rabadán Ayuso**.
 
