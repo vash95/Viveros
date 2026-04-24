@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import placeholderImage from '../assets/images/placeholder.svg';
 import { galleryItems } from '../data/gallery';
 
 // Galería con filtros para clasificar imágenes por tipo de contenido.
@@ -36,7 +37,13 @@ const Gallery = () => {
                 src={item.image}
                 alt={item.title}
                 className="h-64 w-full object-cover transition duration-500 group-hover:scale-105"
+                width="1000"
+                height="667"
                 loading="lazy"
+                onError={(event) => {
+                  event.currentTarget.onerror = null;
+                  event.currentTarget.src = placeholderImage;
+                }}
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4 text-white">
                 <p className="text-xs uppercase tracking-wide text-emerald-200">{item.category}</p>

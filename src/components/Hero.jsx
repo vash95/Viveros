@@ -1,11 +1,12 @@
+import heroImage from '../assets/images/hero/hero.svg';
+
 // Hero principal orientado a conversión y posicionamiento local SEO.
 const Hero = () => (
   <section
     id="inicio"
     className="relative flex min-h-screen items-center justify-center bg-cover bg-center pt-24"
     style={{
-      backgroundImage:
-        "linear-gradient(rgba(15,23,42,.45), rgba(15,23,42,.45)), url('https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=1800&q=80')",
+      backgroundImage: `linear-gradient(rgba(15,23,42,.45), rgba(15,23,42,.45)), url('${heroImage}')`,
     }}
   >
     <div className="mx-auto max-w-3xl px-4 text-center text-white md:px-6">
