@@ -10,6 +10,7 @@ import sombreo from '../../photos/sombreo.webp';
 import verdes from '../../photos/verdes.webp';
 import marmolina from '../../photos/marmolina.webp';
 import ara7269 from '../../photos/ARA7269.webp';
+import huertaZona from '../../photos/huerta-zona.png';
 
 // Galería con imágenes locales del vivero (sin dependencias de URLs externas).
 export const galleryItems = [
@@ -25,4 +26,5 @@ export const galleryItems = [
   { id: 10, category: 'Instalaciones', title: 'Exposición de macetas y jardineras', image: marmolina },
   { id: 11, category: 'Jardines', title: 'Zona exterior del vivero', image: exterior },
   { id: 12, category: 'Plantas', title: 'Flor de temporada', image: ara7269 },
+  { id: 13, category: 'Plantas', title: 'Zona de huerta', image: huertaZona },
 ];
