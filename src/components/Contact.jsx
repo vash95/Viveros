@@ -14,14 +14,14 @@ const Contact = () => (
           <div className="mt-8 flex flex-wrap gap-3">
             <a href="tel:+34983222120" className="rounded-full bg-primary px-5 py-2 font-semibold text-white hover:bg-secondary">Llamar</a>
             <a href="https://wa.me/34983222120" target="_blank" rel="noreferrer" className="rounded-full bg-emerald-600 px-5 py-2 font-semibold text-white hover:bg-emerald-700">WhatsApp</a>
-            <a href="https://maps.google.com/?q=Camino+viejo+de+Simancas+km+3.2+Valladolid" target="_blank" rel="noreferrer" className="rounded-full bg-earth px-5 py-2 font-semibold text-white hover:brightness-110">Cómo llegar</a>
+            <a href="https://maps.google.com/?q=Vivero+Rabad%C3%A1n+Ayuso+Valladolid" target="_blank" rel="noreferrer" className="rounded-full bg-earth px-5 py-2 font-semibold text-white hover:brightness-110">Cómo llegar</a>
           </div>
         </article>
 
         <article className="card overflow-hidden">
           <iframe
             title="Mapa Vivero Rabadán Ayuso"
-            src="https://www.google.com/maps?q=Camino+viejo+de+Simancas+km+3.2+Valladolid&output=embed"
+            src="https://www.google.com/maps?q=Vivero+Rabad%C3%A1n+Ayuso+Valladolid&output=embed"
             className="h-full min-h-[450px] w-full"
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
