@@ -9,11 +9,15 @@ const legalContent = {
     ],
   },
   privacy: {
-    title: 'Política de privacidad',
+    title: 'Política de privacidad y cookies',
     paragraphs: [
       'Responsable del tratamiento: Vivero Rabadán Ayuso.',
       'Finalidad: atender solicitudes realizadas desde el formulario de contacto y gestionar la relación comercial.',
       'Legitimación: consentimiento de la persona interesada.',
+      'Gestión de cookies por categorías: técnicas (siempre activas), preferencias y analíticas (opcionales).',
+      'Las cookies analíticas solo se instalan y ejecutan tras un consentimiento explícito en el banner de cookies.',
+      'Conservación del consentimiento: la selección por categorías se almacena en localStorage para recordar tus preferencias.',
+      'Puedes rechazar cookies opcionales o cambiar la configuración cuando se vuelva a mostrar el panel de cookies.',
       'Derechos: acceso, rectificación, supresión y demás derechos de protección de datos mediante solicitud al contacto indicado en esta web.',
     ],
   },
