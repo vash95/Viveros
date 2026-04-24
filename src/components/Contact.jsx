@@ -5,7 +5,8 @@ const Contact = () => (
       <h2 className="section-title text-center">Contacto</h2>
       <div className="mt-10 grid gap-8 lg:grid-cols-2">
         <article className="card p-8">
-          <div className="space-y-5 text-slate-700">
+          <h3 className="text-2xl font-semibold text-primary">Datos de contacto</h3>
+          <div className="mt-5 space-y-5 text-slate-700">
             <p><strong>Dirección:</strong><br />Camino viejo de Simancas km 3,2<br />Valladolid 47008<br />Frente al bar El Barrio y al lado de la tienda de muebles Abrevadero</p>
             <p><strong>Horario:</strong><br />Lunes a sábado: 09:00 - 14:00 y 16:00 - 20:00<br />Domingo: 09:00 - 14:00</p>
             <p><strong>Teléfonos:</strong><br />Tienda: <a className="text-primary" href="tel:+34983222120">+34 983 22 21 20</a><br />Invernadero y Jardinería: <a className="text-primary" href="tel:+34983279930">+34 983 27 99 30</a></p>
@@ -19,6 +20,7 @@ const Contact = () => (
         </article>
 
         <article className="card overflow-hidden">
+          <h3 className="sr-only">Mapa de ubicación</h3>
           <iframe
             title="Mapa Vivero Rabadán Ayuso"
             src="https://www.google.com/maps?q=Vivero+Rabad%C3%A1n+Ayuso+Valladolid&output=embed"
