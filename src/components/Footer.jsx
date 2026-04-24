@@ -11,6 +11,14 @@ const Footer = ({ onOpenLegalNotice, onOpenPrivacyPolicy }) => (
         <a href="https://facebook.com" target="_blank" rel="noreferrer" className="hover:text-white">Facebook</a>
         <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-white">Instagram</a>
         <a href="https://wa.me/34983222120" target="_blank" rel="noreferrer" className="hover:text-white">WhatsApp</a>
+        <a
+          href="https://www.linkedin.com/in/borja-rabad%C3%A1n-mart%C3%ADn-7569abb9/"
+          target="_blank"
+          rel="noreferrer"
+          className="hover:text-white"
+        >
+          LinkedIn del creador
+        </a>
         <button type="button" onClick={onOpenLegalNotice} className="hover:text-white">Aviso legal</button>
         <button type="button" onClick={onOpenPrivacyPolicy} className="hover:text-white">Política de privacidad</button>
       </div>
