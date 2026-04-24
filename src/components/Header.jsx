@@ -10,6 +10,48 @@ const menuItems = [
   { label: 'Contacto', href: '#contacto' },
 ];
 
+const PalmLogo = () => (
+  <svg
+    viewBox="0 0 120 120"
+    className="h-10 w-10"
+    role="img"
+    aria-label="Logotipo de palmera verde con dos troncos"
+  >
+    <defs>
+      <linearGradient id="palmLeaves" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stopColor="#16a34a" />
+        <stop offset="100%" stopColor="#14532d" />
+      </linearGradient>
+      <linearGradient id="palmTrunks" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stopColor="#65a30d" />
+        <stop offset="100%" stopColor="#3f6212" />
+      </linearGradient>
+    </defs>
+
+    <g fill="url(#palmLeaves)">
+      <path d="M60 50 C42 28, 20 23, 5 26 C23 35, 38 42, 54 56 Z" />
+      <path d="M60 50 C49 21, 51 8, 60 2 C68 12, 70 28, 65 54 Z" />
+      <path d="M60 50 C72 20, 93 15, 114 20 C98 31, 82 40, 66 56 Z" />
+      <path d="M60 52 C39 44, 23 50, 10 63 C28 64, 43 63, 57 60 Z" />
+      <path d="M60 52 C84 47, 102 55, 113 70 C94 68, 78 63, 63 60 Z" />
+    </g>
+
+    <g fill="none" stroke="url(#palmTrunks)" strokeLinecap="round" strokeWidth="7">
+      <path d="M58 55 C52 70, 47 88, 44 110" />
+      <path d="M64 55 C70 72, 75 90, 78 110" />
+    </g>
+
+    <g stroke="#84cc16" strokeWidth="1.6" opacity="0.55">
+      <line x1="52" y1="73" x2="58" y2="70" />
+      <line x1="49" y1="83" x2="55" y2="80" />
+      <line x1="46" y1="95" x2="52" y2="92" />
+      <line x1="66" y1="73" x2="72" y2="76" />
+      <line x1="69" y1="85" x2="75" y2="88" />
+      <line x1="72" y1="97" x2="78" y2="100" />
+    </g>
+  </svg>
+);
+
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuButtonRef = useRef(null);
@@ -47,7 +89,10 @@ const Header = () => {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-slate-200/70 bg-white/95 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-6">
-        <a href="#inicio" className="text-lg font-bold text-primary md:text-xl">Vivero Rabadán Ayuso</a>
+        <a href="#inicio" className="flex items-center gap-3 text-lg font-bold text-primary md:text-xl" aria-label="Ir al inicio">
+          <PalmLogo />
+          <span>Vivero Rabadán Ayuso</span>
+        </a>
         <button
           type="button"
           ref={menuButtonRef}
