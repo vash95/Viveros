@@ -15,7 +15,7 @@ const PalmLogo = () => (
     viewBox="0 0 120 120"
     className="h-10 w-10"
     role="img"
-    aria-label="Logotipo de palmera verde con tronco en forma de V"
+    aria-label="Logotipo de dos palmeras con troncos en forma de V"
   >
     <defs>
       <linearGradient id="palmLeaves" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -29,25 +29,31 @@ const PalmLogo = () => (
     </defs>
 
     <g fill="url(#palmLeaves)">
-      <path d="M60 50 C42 28, 20 23, 5 26 C23 35, 38 42, 54 56 Z" />
-      <path d="M60 50 C49 21, 51 8, 60 2 C68 12, 70 28, 65 54 Z" />
-      <path d="M60 50 C72 20, 93 15, 114 20 C98 31, 82 40, 66 56 Z" />
-      <path d="M60 52 C39 44, 23 50, 10 63 C28 64, 43 63, 57 60 Z" />
-      <path d="M60 52 C84 47, 102 55, 113 70 C94 68, 78 63, 63 60 Z" />
+      <path d="M42 56 C26 42, 16 38, 6 40 C18 49, 28 56, 39 62 Z" />
+      <path d="M42 56 C34 34, 35 22, 42 16 C49 24, 50 38, 46 60 Z" />
+      <path d="M42 56 C53 35, 66 30, 78 34 C67 45, 56 53, 45 61 Z" />
+      <path d="M42 58 C26 56, 16 62, 8 72 C20 72, 30 69, 40 64 Z" />
+      <path d="M42 58 C56 54, 68 59, 77 68 C64 69, 53 66, 44 63 Z" />
+
+      <path d="M78 56 C63 42, 52 38, 42 40 C54 49, 64 56, 75 62 Z" />
+      <path d="M78 56 C70 34, 71 22, 78 16 C84 24, 85 38, 81 60 Z" />
+      <path d="M78 56 C90 35, 103 30, 114 34 C104 45, 93 53, 82 61 Z" />
+      <path d="M78 58 C63 56, 52 62, 44 72 C56 72, 67 69, 76 64 Z" />
+      <path d="M78 58 C93 54, 104 59, 113 68 C100 69, 89 66, 80 63 Z" />
     </g>
 
     <g fill="none" stroke="url(#palmTrunks)" strokeLinecap="round" strokeWidth="7">
-      <path d="M60 55 C54 73, 47 90, 40 110" />
-      <path d="M60 55 C66 73, 73 90, 80 110" />
+      <path d="M60 108 C53 90, 46 74, 42 58" />
+      <path d="M60 108 C67 90, 74 74, 78 58" />
     </g>
 
     <g stroke="#84cc16" strokeWidth="1.6" opacity="0.55">
-      <line x1="53" y1="72" x2="58" y2="69" />
-      <line x1="49" y1="82" x2="55" y2="78" />
-      <line x1="45" y1="94" x2="51" y2="90" />
-      <line x1="67" y1="72" x2="72" y2="75" />
-      <line x1="71" y1="84" x2="77" y2="88" />
-      <line x1="75" y1="96" x2="81" y2="100" />
+      <line x1="54" y1="96" x2="50" y2="93" />
+      <line x1="50" y1="86" x2="46" y2="82" />
+      <line x1="46" y1="74" x2="42" y2="70" />
+      <line x1="66" y1="96" x2="70" y2="93" />
+      <line x1="70" y1="86" x2="74" y2="82" />
+      <line x1="74" y1="74" x2="78" y2="70" />
     </g>
   </svg>
 );
