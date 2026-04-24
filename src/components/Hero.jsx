@@ -17,6 +17,8 @@ const Hero = () => (
       alt="Instalaciones del Vivero Rabadán Ayuso"
       className="absolute inset-0 h-full w-full object-cover"
       loading="eager"
+      fetchPriority="high"
+      decoding="async"
     />
     <div className="absolute inset-0 bg-gradient-to-b from-slate-950/70 via-slate-900/65 to-slate-950/85" />
     <div className="absolute -left-16 top-24 h-56 w-56 rounded-full bg-primary/40 blur-3xl" aria-hidden="true" />
