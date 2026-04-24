@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Palmera verde con dos troncos">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Palmera verde abierta con dos troncos">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#ecfdf5" />
@@ -17,11 +17,11 @@
   <rect width="120" height="120" rx="24" fill="url(#bg)" />
 
   <g fill="url(#leaf)">
-    <path d="M60 48 C42 30, 24 24, 12 27 C25 35, 39 43, 54 55 Z" />
-    <path d="M60 48 C50 24, 52 12, 60 7 C67 14, 69 29, 65 53 Z" />
-    <path d="M60 48 C72 24, 90 20, 108 24 C95 33, 82 41, 66 55 Z" />
-    <path d="M60 51 C41 45, 26 50, 15 61 C31 62, 44 61, 57 58 Z" />
-    <path d="M60 51 C80 47, 95 54, 105 66 C88 64, 76 61, 63 58 Z" />
+    <path d="M60 49 C38 27, 19 21, 8 26 C23 35, 39 45, 56 57 Z" />
+    <path d="M60 48 C48 21, 50 8, 60 3 C70 11, 72 28, 66 54 Z" />
+    <path d="M60 49 C82 27, 101 21, 112 26 C97 35, 81 45, 64 57 Z" />
+    <path d="M60 52 C38 45, 21 51, 10 63 C28 64, 43 63, 58 59 Z" />
+    <path d="M60 52 C82 45, 99 51, 110 63 C92 64, 77 63, 62 59 Z" />
   </g>
 
   <g fill="none" stroke="url(#trunk)" stroke-linecap="round" stroke-width="8">
