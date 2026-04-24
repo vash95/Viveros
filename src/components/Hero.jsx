@@ -1,4 +1,4 @@
-import exteriorImage from '../../photos/exterior.webp';
+import principalImage from '../../photos/about-1.webp';
 
 const highlights = [
   { label: 'Años de experiencia', value: '+25' },
@@ -13,7 +13,7 @@ const Hero = () => (
     className="relative isolate flex min-h-screen items-center overflow-hidden bg-slate-900 pt-24"
   >
     <img
-      src={exteriorImage}
+      src={principalImage}
       alt="Instalaciones del Vivero Rabadán Ayuso"
       className="absolute inset-0 h-full w-full object-cover"
       loading="eager"
