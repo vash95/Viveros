@@ -1,9 +1,16 @@
-// Imágenes de galería preparadas para sustituir fácilmente por fotos reales del vivero.
+import interior from '../../photos/interior.webp';
+import exterior2 from '../../photos/exterior2.webp';
+import ara7414 from '../../photos/ara7414.webp';
+import centrob from '../../photos/centrob.webp';
+import about1 from '../../photos/about-1.webp';
+import invernadero from '../../photos/invernadero.webp';
+
+// Galería con imágenes locales del vivero (sin dependencias de URLs externas).
 export const galleryItems = [
-  { id: 1, category: 'Jardines', title: 'Proyecto de jardín residencial', image: 'https://images.unsplash.com/photo-1620943134836-73192388c7ce?auto=format&fit=crop&w=1000&q=80' },
-  { id: 2, category: 'Instalaciones', title: 'Zona de tienda', image: 'https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=1000&q=80' },
-  { id: 3, category: 'Plantas', title: 'Plantas de interior', image: 'https://images.unsplash.com/photo-1604762524889-3e2fcc145683?auto=format&fit=crop&w=1000&q=80' },
-  { id: 4, category: 'Jardines', title: 'Mantenimiento de jardines', image: 'https://images.unsplash.com/photo-1599685315640-3f6f72d0a81e?auto=format&fit=crop&w=1000&q=80' },
-  { id: 5, category: 'Instalaciones', title: 'Invernadero de producción', image: 'https://images.unsplash.com/photo-1589923188900-85dae523342b?auto=format&fit=crop&w=1000&q=80' },
-  { id: 6, category: 'Plantas', title: 'Planta de temporada', image: 'https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=1000&q=80' },
+  { id: 1, category: 'Jardines', title: 'Proyecto de jardín residencial', image: exterior2 },
+  { id: 2, category: 'Instalaciones', title: 'Zona de tienda', image: centrob },
+  { id: 3, category: 'Plantas', title: 'Plantas de interior', image: interior },
+  { id: 4, category: 'Jardines', title: 'Mantenimiento de jardines', image: about1 },
+  { id: 5, category: 'Instalaciones', title: 'Invernadero de producción', image: invernadero },
+  { id: 6, category: 'Plantas', title: 'Planta de temporada', image: ara7414 },
 ];
