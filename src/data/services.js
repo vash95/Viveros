@@ -5,7 +5,7 @@ import diseno from '../../photos/diseño.webp';
 import centrob from '../../photos/centrob.webp';
 import about2 from '../../photos/about-2.webp';
 import chatgptMacetas from '../../photos/chatgpt-macetas-cestas-jardineras.png';
-import huertaZona from '../../photos/huerta-zona.png';
+import huerta from '../../photos/Huerta.png';
 
 // Catálogo editable de servicios del vivero para renderizar tarjetas con imágenes locales.
 export const services = [
@@ -63,6 +63,6 @@ export const services = [
     title: 'Planta de huerta',
     description: 'Variedades de huerta para cultivo doméstico y profesional.',
     icon: '🥬',
-    image: huertaZona,
+    image: huerta,
   },
 ];
