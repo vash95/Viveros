@@ -1,11 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vivero Rabadán Ayuso">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="Palmera verde con dos troncos">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#2f855a"/>
-      <stop offset="100%" stop-color="#68d391"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ecfdf5" />
+      <stop offset="100%" stop-color="#dcfce7" />
+    </linearGradient>
+    <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#14532d" />
+    </linearGradient>
+    <linearGradient id="trunk" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#65a30d" />
+      <stop offset="100%" stop-color="#3f6212" />
     </linearGradient>
   </defs>
-  <rect width="64" height="64" rx="12" fill="#1a202c"/>
-  <path d="M32 10c8 8 14 16 14 25a14 14 0 0 1-28 0c0-9 6-17 14-25Z" fill="url(#g)"/>
-  <path d="M32 20v24" stroke="#f0fff4" stroke-width="3" stroke-linecap="round"/>
+
+  <rect width="120" height="120" rx="24" fill="url(#bg)" />
+
+  <g fill="url(#leaf)">
+    <path d="M60 48 C42 30, 24 24, 12 27 C25 35, 39 43, 54 55 Z" />
+    <path d="M60 48 C50 24, 52 12, 60 7 C67 14, 69 29, 65 53 Z" />
+    <path d="M60 48 C72 24, 90 20, 108 24 C95 33, 82 41, 66 55 Z" />
+    <path d="M60 51 C41 45, 26 50, 15 61 C31 62, 44 61, 57 58 Z" />
+    <path d="M60 51 C80 47, 95 54, 105 66 C88 64, 76 61, 63 58 Z" />
+  </g>
+
+  <g fill="none" stroke="url(#trunk)" stroke-linecap="round" stroke-width="8">
+    <path d="M57 54 C51 69, 46 85, 43 105" />
+    <path d="M64 54 C70 70, 75 86, 78 105" />
+  </g>
 </svg>
