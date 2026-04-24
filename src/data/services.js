@@ -3,9 +3,9 @@ import interior from '../../photos/interior.webp';
 import ara7269 from '../../photos/ARA7269.webp';
 import diseno from '../../photos/diseño.webp';
 import centrob from '../../photos/centrob.webp';
-import exterior2 from '../../photos/exterior2.webp';
 import about2 from '../../photos/about-2.webp';
-import macetasIa from '../../photos/macetas-ia.svg';
+import chatgptMacetas from '../../photos/chatgpt-macetas-cestas-jardineras.png';
+import huertaZona from '../../photos/huerta-zona.png';
 
 // Catálogo editable de servicios del vivero para renderizar tarjetas con imágenes locales.
 export const services = [
@@ -56,13 +56,13 @@ export const services = [
     title: 'Macetas, cestas y jardineras',
     description: 'Complementos prácticos y decorativos para interior y exterior.',
     icon: '🧺',
-    image: macetasIa,
+    image: chatgptMacetas,
   },
   {
     id: 8,
     title: 'Planta de huerta',
     description: 'Variedades de huerta para cultivo doméstico y profesional.',
     icon: '🥬',
-    image: exterior2,
+    image: huertaZona,
   },
 ];
