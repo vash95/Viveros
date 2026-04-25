@@ -128,7 +128,18 @@ const Header = () => {
           href="https://wa.me/34983222120"
           target="_blank"
           rel="noreferrer"
-          className="rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:bg-secondary"
+          className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-white transition hover:bg-secondary lg:hidden"
+          aria-label="Contactar por WhatsApp"
+        >
+          <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor" aria-hidden="true">
+            <path d="M20.52 3.48A11.87 11.87 0 0 0 12.05 0 11.94 11.94 0 0 0 1.73 17.99L0 24l6.17-1.62A11.94 11.94 0 0 0 12.05 24h.01A11.95 11.95 0 0 0 24 12.05a11.86 11.86 0 0 0-3.48-8.57Zm-8.46 18.5h-.01a9.93 9.93 0 0 1-5.06-1.38l-.36-.21-3.66.96.98-3.57-.24-.37a9.9 9.9 0 0 1-1.54-5.29C2.17 6.68 6.61 2.24 12.06 2.24a9.78 9.78 0 0 1 6.99 2.9 9.8 9.8 0 0 1 2.9 6.99c0 5.45-4.44 9.89-9.89 9.89Zm5.43-7.42c-.3-.15-1.75-.86-2.03-.96-.28-.11-.48-.15-.69.15-.2.29-.79.95-.96 1.14-.18.2-.36.22-.67.07-.3-.15-1.29-.47-2.45-1.5-.91-.8-1.52-1.78-1.7-2.08-.18-.31-.02-.48.13-.63.14-.14.3-.36.44-.54.15-.18.2-.3.3-.5.1-.21.05-.39-.02-.54-.08-.15-.69-1.66-.95-2.28-.25-.6-.5-.52-.69-.53l-.58-.01c-.2 0-.54.08-.82.39-.28.3-1.08 1.06-1.08 2.58 0 1.51 1.11 2.98 1.26 3.19.15.2 2.16 3.31 5.24 4.64.73.32 1.3.51 1.74.65.73.23 1.4.2 1.92.12.59-.09 1.75-.71 2-1.39.25-.68.25-1.26.18-1.38-.08-.12-.28-.19-.58-.34Z" />
+          </svg>
+        </a>
+        <a
+          href="https://wa.me/34983222120"
+          target="_blank"
+          rel="noreferrer"
+          className="hidden rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white transition hover:bg-secondary lg:inline-flex"
         >
           Contactar por WhatsApp
         </a>
