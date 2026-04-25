@@ -15,7 +15,7 @@ const PalmLogo = () => (
     viewBox="0 0 120 120"
     className="h-10 w-10"
     role="img"
-    aria-label="Logotipo de dos palmeras con troncos en forma de V"
+    aria-label="Logotipo de dos palmeras con troncos en forma de V curva"
   >
     <defs>
       <linearGradient id="palmLeaves" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -43,8 +43,8 @@ const PalmLogo = () => (
     </g>
 
     <g fill="none" stroke="url(#palmTrunks)" strokeLinecap="round" strokeWidth="7">
-      <path d="M60 108 C53 90, 46 74, 42 58" />
-      <path d="M60 108 C67 90, 74 74, 78 58" />
+      <path d="M60 108 C49 95, 43 78, 42 58" />
+      <path d="M60 108 C71 95, 77 78, 78 58" />
     </g>
 
     <g stroke="#84cc16" strokeWidth="1.6" opacity="0.55">
