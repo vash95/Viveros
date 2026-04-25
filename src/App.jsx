@@ -10,7 +10,6 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LegalModal from './components/LegalModal';
 import CookieBanner from './components/CookieBanner';
-import MobileQuickActions from './components/MobileQuickActions';
 import {
   COOKIE_CONSENT_EVENT,
   hasAnalyticsConsent,
@@ -83,7 +82,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main className="pb-24 sm:pb-0">
+      <main>
         <Hero />
         <About />
         <Services />
@@ -92,7 +91,6 @@ const App = () => {
         <News />
         <Contact />
       </main>
-      <MobileQuickActions />
       <Footer
         onOpenLegalNotice={() => setActiveLegalModal('legal')}
         onOpenPrivacyPolicy={() => setActiveLegalModal('privacy')}
