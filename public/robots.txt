@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://viverosrabadanayuso.com/sitemap.xml
+Sitemap: https://viverosrabadanayuso.es/sitemap.xml
