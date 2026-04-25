@@ -4,6 +4,7 @@ const highlights = [
   { label: 'Años de experiencia', value: '+25' },
   { label: 'Especies disponibles', value: '+500' },
   { label: 'Proyectos al año', value: '+120' },
+  { label: 'Reseñas positivas', value: '+250' },
 ];
 
 // Hero principal orientado a conversión y posicionamiento local SEO.
@@ -59,7 +60,7 @@ const Hero = () => (
           Te acompañamos en cada etapa del proyecto, desde la elección de plantas hasta el mantenimiento periódico.
         </p>
 
-        <div className="mt-6 grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-1">
           {highlights.map((item) => (
             <div key={item.label} className="rounded-2xl border border-white/20 bg-slate-950/30 px-4 py-3">
               <p className="text-2xl font-bold text-emerald-300">{item.value}</p>
@@ -67,6 +68,16 @@ const Hero = () => (
             </div>
           ))}
         </div>
+
+        <blockquote className="mt-6 rounded-2xl border border-white/20 bg-slate-950/30 px-4 py-4">
+          <p className="text-sm italic leading-relaxed text-slate-100">
+            “Un trato excelente y una selección de plantas espectacular. Nos diseñaron el jardín y quedó mejor de lo
+            que imaginábamos.”
+          </p>
+          <footer className="mt-2 text-xs font-semibold uppercase tracking-wide text-emerald-300/90">
+            Comentario destacado · Cliente verificado
+          </footer>
+        </blockquote>
       </aside>
     </div>
   </section>
