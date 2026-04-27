@@ -15,6 +15,7 @@
     <meta name="author" content="Vivero Rabadán Ayuso" />
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow, max-image-preview:large" />
+    <meta name="format-detection" content="telephone=yes" />
     <meta name="theme-color" content="#0f3d2e" />
     <link rel="canonical" href="https://viverosrabadanayuso.es/" />
     <link rel="alternate" href="https://viverosrabadanayuso.es/" hreflang="es-ES" />
@@ -30,9 +31,13 @@
     />
     <meta property="og:url" content="https://viverosrabadanayuso.es/" />
     <meta property="og:image" content="https://viverosrabadanayuso.es/photos/exterior.webp" />
+    <meta property="og:image:type" content="image/webp" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="Instalaciones del Vivero Rabadán Ayuso" />
 
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@viverosrabadan" />
     <meta name="twitter:title" content="Vivero Rabadán Ayuso | Plantas y jardinería en Valladolid" />
     <meta
       name="twitter:description"
@@ -57,10 +62,14 @@
           {
             "@type": "LocalBusiness",
             "additionalType": "https://schema.org/GardenStore",
+            "@id": "https://viverosrabadanayuso.es/#localbusiness",
             "name": "Vivero Rabadán Ayuso",
             "url": "https://viverosrabadanayuso.es/",
             "telephone": "+34 983 22 21 20",
+            "email": "viverosrabadan@gmail.com",
             "image": "https://viverosrabadanayuso.es/photos/exterior.webp",
+            "priceRange": "€€",
+            "inLanguage": "es-ES",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Camino viejo de Simancas km 3,2",
@@ -78,6 +87,12 @@
                 "@type": "OpeningHoursSpecification",
                 "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
                 "opens": "09:00",
+                "closes": "14:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                "opens": "16:00",
                 "closes": "20:00"
               },
               {
@@ -87,13 +102,62 @@
                 "closes": "14:00"
               }
             ],
-            "hasMap": "https://maps.google.com/?q=Vivero+Rabad%C3%A1n+Ayuso+Valladolid"
+            "hasMap": "https://maps.google.com/?q=Vivero+Rabad%C3%A1n+Ayuso+Valladolid",
+            "areaServed": ["Valladolid", "Provincia de Valladolid"],
+            "sameAs": [
+              "https://www.google.com/maps/place/Vivero+Rabadan+Ayuso/"
+            ]
           },
           {
             "@type": "WebSite",
+            "@id": "https://viverosrabadanayuso.es/#website",
             "name": "Vivero Rabadán Ayuso",
             "url": "https://viverosrabadanayuso.es/",
             "inLanguage": "es-ES"
+          },
+          {
+            "@type": "Service",
+            "@id": "https://viverosrabadanayuso.es/#servicios",
+            "serviceType": "Diseño y mantenimiento de jardines",
+            "provider": {
+              "@id": "https://viverosrabadanayuso.es/#localbusiness"
+            },
+            "areaServed": "Valladolid",
+            "availableChannel": {
+              "@type": "ServiceChannel",
+              "servicePhone": "+34 983 22 21 20",
+              "serviceUrl": "https://viverosrabadanayuso.es/#contacto"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://viverosrabadanayuso.es/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "¿Qué servicios ofrece Vivero Rabadán Ayuso en Valladolid?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Ofrecemos venta y producción propia de plantas, diseño de jardines, ejecución de obras de jardinería y mantenimiento para particulares, empresas y administraciones."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Dónde está ubicado el vivero?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Estamos en Camino viejo de Simancas km 3,2, 47008 Valladolid, frente al bar El Barrio y junto a la tienda de muebles Abrevadero."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Cuál es el horario de atención?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Abrimos de lunes a sábado de 09:00 a 14:00 y de 16:00 a 20:00, y los domingos de 09:00 a 14:00."
+                }
+              }
+            ]
           }
         ]
       }
